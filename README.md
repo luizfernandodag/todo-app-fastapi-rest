@@ -32,9 +32,7 @@ todo-app/
 │ └── package.json
 └── README.md
 
-yaml
-Copiar
-Editar
+
 
 ---
 
