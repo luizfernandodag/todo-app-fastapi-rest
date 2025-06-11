@@ -54,9 +54,6 @@ python -m venv venv
 source venv/bin/activate   # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 Run the backend server:
-bash
-Copiar
-Editar
 uvicorn app.main:app --reload
 The API will be available at: http://127.0.0.1:8000
 
@@ -67,15 +64,11 @@ Requirements:
 Node.js 16+
 
 Install dependencies:
-bash
-Copiar
-Editar
 cd frontend
 npm install
 Run the frontend development server:
 bash
-Copiar
-Editar
+
 npm run dev
 The app will be available at: http://localhost:5173 (if using Vite)
 
@@ -90,10 +83,7 @@ DELETE /todos/{id}: Delete a to-do item
 
 🐳 Optional: Run with Docker
 If you want to run both backend and frontend using Docker:
-
-bash
-Copiar
-Editar
+bash:
 docker-compose up --build
 Make sure to create a docker-compose.yml and Dockerfile for each service.
 
@@ -109,6 +99,4 @@ Make sure to create a docker-compose.yml and Dockerfile for each service.
 📄 License
 This project is licensed under the MIT License.
 
-yaml
-Copiar
-Editar
+
