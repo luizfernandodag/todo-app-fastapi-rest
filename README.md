@@ -6,8 +6,11 @@ This is a simple **To-Do List** application built with **FastAPI** (backend) and
 
 # HOW TO RUN
 -Run the backend server: (on the backend dir: backend)
+
 uvicorn app.main:app --reload
+
 -Run the front end: (on the frontend dir: frontend\frontend)
+
 npm run dev
 
 ## 🚀 Tech Stack
