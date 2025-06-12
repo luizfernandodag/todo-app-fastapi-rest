@@ -24,19 +24,14 @@ todo-app/
 │ │ └── crud.py
 │ └── requirements.txt
 ├── frontend/
-│ ├── public/
-│ ├── src/
+│  
+│ ├── frontend/
 │ │ ├── App.jsx
 │ │ ├── components/
 │ │ └── api/
 │ └── package.json
 └── README.md
 
-Run the backend server: (on the backend dir: backend)
-uvicorn app.main:app --reload
-
-Run the front end: (on the frontend dir: frontend\frontend)
-npm run dev
 
 ---
 
@@ -96,6 +91,13 @@ Make sure to create a docker-compose.yml and Dockerfile for each service.
 ⚡ Fast and modern async API using FastAPI
 
 🎨 Responsive UI with React
+
+# HOW TO RUN
+Run the backend server: (on the backend dir: backend)
+uvicorn app.main:app --reload
+
+Run the front end: (on the frontend dir: frontend\frontend)
+npm run dev
 
 📄 License
 This project is licensed under the MIT License.
