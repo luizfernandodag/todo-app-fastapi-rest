@@ -32,7 +32,11 @@ todo-app/
 │ └── package.json
 └── README.md
 
+Run the backend server: (on the backend dir: backend)
+uvicorn app.main:app --reload
 
+Run the front end: (on the frontend dir: frontend\frontend)
+npm run dev
 
 ---
 
@@ -65,7 +69,6 @@ Install dependencies:
 cd frontend
 npm install
 Run the frontend development server:
-bash
 
 npm run dev
 The app will be available at: http://localhost:5173 (if using Vite)
