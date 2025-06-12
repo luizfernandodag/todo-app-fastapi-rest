@@ -4,6 +4,10 @@
 
 This is a simple **To-Do List** application built with **FastAPI** (backend) and **React** (frontend).
 
+# HOW TO RUN
+Run the backend server: (on the backend dir: backend)
+uvicorn app.main:app --reload
+
 ## 🚀 Tech Stack
 
 - **Backend**: [FastAPI](https://fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), [SQLite](https://www.sqlite.org/index.html)
@@ -92,9 +96,7 @@ Make sure to create a docker-compose.yml and Dockerfile for each service.
 
 🎨 Responsive UI with React
 
-# HOW TO RUN
-Run the backend server: (on the backend dir: backend)
-uvicorn app.main:app --reload
+
 
 Run the front end: (on the frontend dir: frontend\frontend)
 npm run dev
